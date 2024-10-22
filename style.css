@@ -1,4 +1,10 @@
 
+html *
+{
+   font-size: 1em !important;
+   font-family: Arial !important;
+   
+}
 
 nav {
     background-color: #333;
@@ -57,4 +63,19 @@ nav ul li a:hover {
 
 h1{
     color: rgb(17, 7, 7);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
 }
